@@ -1,5 +1,7 @@
 import { defineConfig, devices } from '@playwright/test';
 
+// simple comment for CI test
+
 export default defineConfig({
   testDir: 'tests',
   reporter: 'html',
